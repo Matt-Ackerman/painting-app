@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/Rx';
 
 export class AppComponent implements OnInit {
 
-  artPiece: ArtPiece;
+  artOptions: ArtPiece;
 
   constructor(private artService: ArtService) { }
 
